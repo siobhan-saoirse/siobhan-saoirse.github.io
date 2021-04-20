@@ -1,5 +1,0 @@
- "VertexLitGeneric"
-{
-	"$baseTexture" "models\buildables\Amplifier_test\Amplifier_blue"
-	"$nocull" 1
-}

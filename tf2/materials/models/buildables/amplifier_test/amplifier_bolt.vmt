@@ -1,5 +1,0 @@
- "VertexLitGeneric"
-{
-	"$baseTexture" "models\buildables\Amplifier_test\Amplifier_bolt"
-	"$alphatest" "1"
-}
