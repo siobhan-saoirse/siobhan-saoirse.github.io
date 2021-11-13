@@ -1,6 +1,6 @@
 Welcome
 
-###WTF is this?
+### WTF is this?
 
 This is my website that has *mostly* unfinished shit, as well as a revived version of the old version of Minecraft.net.
 
