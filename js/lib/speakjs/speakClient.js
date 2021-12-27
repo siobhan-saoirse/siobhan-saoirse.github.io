@@ -141,7 +141,7 @@
 			var startTime = Date.now();
 			var wav = generateSpeech(text, args);
 			if (PROFILE) console.log('speak.js: processing took ' + (Date.now() - startTime).toFixed(2) + ' ms');
-			playSound(wav);
+    			playHTMLAudioElement(wav);
 		} else {
 			// Call the worker, which will return a wav that we then play
 			var startTime = Date.now();
