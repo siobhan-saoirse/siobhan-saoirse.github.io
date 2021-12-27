@@ -47,8 +47,7 @@ function speak(text, args) {
             }
             return ret;
         }
-        document.getElementById("audio").innerHTML = '<video id="player" src="data:audio/x-wav;base64,' + encode64(wav) + '" autoplay>';
-        document.getElementById("player").play();
+        window.location.href = 'data:audio/x-wav;base64,' + encode64(wav)
     }
     function playAudioDataAPI(data) {
         try {
