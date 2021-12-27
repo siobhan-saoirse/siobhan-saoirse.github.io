@@ -1,6 +1,6 @@
 var speakWorker;
 try {
-    speakWorker = new Worker("/js/translators/tts/speakWorker.js");
+    speakWorker = new Worker("/js/lib/speakjs/speakWorker.js");
 } catch (e) {
     console.log("speak.js warning: no worker support");
 }
