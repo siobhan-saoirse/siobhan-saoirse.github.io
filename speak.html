@@ -27,6 +27,10 @@
 <body>
     <div id="audio"></div>
     <script>
+	Array.prototype.subarray = function(start, end) {
+	    if (!end) { end = -1; } 
+	    return this.slice(start, this.length + 1 - (end * -1));
+	};
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       const text = urlParams.get('text')
