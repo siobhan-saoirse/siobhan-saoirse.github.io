@@ -47,7 +47,12 @@ function speak(text, args) {
             }
             return ret;
         }
-        window.location.href = 'data:audio/x-wav;base64,' + encode64(wav)
+        let timer, sound;
+        sound = new Howl({
+            src: ['<?= get_theme_file_uri() ?>data:audio/wav;base64,' + encode64(wav)]
+        });
+        sound.play();
+        btn.click()
     }
     function playAudioDataAPI(data) {
         try {
