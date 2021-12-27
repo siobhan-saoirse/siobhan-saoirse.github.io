@@ -48,11 +48,8 @@ function speak(text, args) {
             return ret;
         }
         let timer, sound;
-        sound = new Howl({
-            src: ['<?= get_theme_file_uri() ?>data:audio/wav;base64,' + encode64(wav)]
-        });
+        sound = new Audio('data:audio/wav;base64,' + encode64(wav))
         sound.play();
-        btn.click()
     }
     function playAudioDataAPI(data) {
         try {
