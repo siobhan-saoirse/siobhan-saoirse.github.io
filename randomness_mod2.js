@@ -3,6 +3,7 @@ Bonzi.prototype.talk = function (a, b, c) {
     a = a.replaceAll(" ","");
     a = a.replaceAll(",","");
     a = a.replaceAll(".","");
+    a = a.replaceAll("_","");
     a = a.replaceAll("!","! ");
     a = a.replaceAll("?","? ");
     (c = c || !1),
@@ -19,6 +20,7 @@ Bonzi.prototype.talk = function (a, b, c) {
         b = b.replaceAll(" ","");
         b = b.replaceAll(",","");
         b = b.replaceAll(".","");
+        b = b.replaceAll("_","");
         b = b.replaceAll("!","! ");
         b = b.replaceAll("?","? ");
         speak.play(
