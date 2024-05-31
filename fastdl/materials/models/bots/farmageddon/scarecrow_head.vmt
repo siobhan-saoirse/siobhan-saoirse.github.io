@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$nodecal" "1"
+	"$baseTexture" "models/bots/farmageddon/scarecrow_head"
+	"$bumpmap" "models/bots/farmageddon/scarecrow_head_normal"
+
+	"$lightwarptexture" "models\weapons\c_items/c_sr3_punch_lightwarp"
+
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost" "0.01"
+	"$phongfresnelranges" "[.25 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "5"
+
+	"$phongtint"    "[2 4 1]"
+
+	">=DX90"
+	{
+		"$selfillum"	"1"
+	}
+	"$selfillumtint"    "[5 10 0]"
+	"$selfillummask"	"models/bots/farmageddon/scarecrow_head_selfIllum"
+
+}
+

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/salmann_skull"
+	"$bumpmap" "models/props_brine/salmann_skull_nrm"
+}

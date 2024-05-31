@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_brine/salmann_eggs_base"
+	"$bumpmap" "models/props_brine/salmann_eggs_base_nrm"
+
+//	"$lightwarptexture"		"models/player/engineer/engineer_hands_lightwarp"
+//	"$lightwarptexture" "models/player/demo/hwn_demo_lightwarp"
+
+//	"$halflambert"	"1"
+
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.75"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+	"$nodecal"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[1 2 8]"
+
+}

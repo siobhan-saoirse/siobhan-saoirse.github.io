@@ -1,0 +1,77 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/bots/hwn_botler/hwn_botler_blue"
+	"$bumpmap"	"models/bots/hwn_botler/hwn_botler_normal"
+
+//	"$surfaceprop"	"metal"
+
+//	"$nodecal" "1"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale" ".5"
+	"$detailblendfactor" "0"
+	"$detailblendmode" "1"
+
+	"$yellow" "0"
+
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" "1.5"	
+//	"$phongalbedotint" "1"
+	
+//	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+//	"$lightwarptexture"		"models\lightwarps\robot_lightwarp"
+	"$lightwarptexture"		"models/bots/hwn_botler/botler_lightwarp"
+//	"$phongwarptexture"	"models\weapons\c_items/c_pocket_watch_phongwarp"	
+//	"$phongwarptexture"	"models\weapons\c_items/c_ambassador_phongwarp"
+	"$phongwarptexture"	"models/props_spymovie/microscope_warp"
+
+	"$phongfresnelranges"	"[.3 1 8]"
+//	"$basemapalphaphongmask" "1"
+
+	"$selfillum" "1"
+	"$selfillummask" "models/bots/hwn_botler/hwn_botler_glow"
+//	"$selfillumtint" "50"
+
+	"$envmap" "env_cubemap"			//tinted default shine, if baked
+	"$envmaptint" "[.1 .1 .1]"
+
+//	"$envmapfresnel"	"[.33 .75 2]"
+
+	"$basemapenvmapmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+//	"$rimmask" "1"
+
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+
+
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+
+	}
+}
+

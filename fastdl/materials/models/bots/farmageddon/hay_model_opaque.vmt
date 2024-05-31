@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"farmageddon/hay_messy"
+
+//	"$basetexturetransform" 	"center .5 .5		scale 1 1		rotate 0		translate 0 0"
+
+	"$surfaceprop" "grass"
+	"$nodecal"	"1"
+
+	"$halflambert" "1"
+}

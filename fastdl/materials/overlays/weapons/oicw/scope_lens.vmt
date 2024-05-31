@@ -1,0 +1,14 @@
+"Refract"
+{
+	"$model" 1
+	"$refractamount"	".3"
+ 	"$normalmap"		"overlays/weapons/oicw/scope"
+	"$forcerefract"		"1"
+	"$refracttint"		"[0.5 1 0]"
+	"$RefractTintTexture"	"overlays/weapons/oicw/scope2"
+	"$bluramount"		".15"
+	"$translucent" 1
+	"$ignorez"     "1"
+	"$no_fullbright" "1"	
+}
+ 
