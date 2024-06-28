@@ -10,4 +10,4 @@ This is my website that has *mostly* unfinished shit, as well as a revived versi
 
 [TF2GM GMOD Server loading page](https://seamusmario.github.io/loading.html)
 
-[BonziWORLD Revived](https://www.youtube.com/watch?v=6n3pFFPSlW4)
+[BonziWORLD Revived](https://bonkey.world)
