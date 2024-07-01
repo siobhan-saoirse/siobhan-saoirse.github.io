@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/asukaplush/sanae"
+
+	"$nocull" 1
+	"$model" 1
+	"$nodecal" 1
+	"$alphatest" 1
+	"$halflambert" 1
+}
