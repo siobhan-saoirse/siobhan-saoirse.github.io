@@ -14,8 +14,8 @@
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       const text = urlParams.get('text')
-      const pitch = urlParams.get('pitch') or 0
-      const speed = urlParams.get('speed') or 0
+      const pitch = urlParams.get('pitch') || 0
+      const speed = urlParams.get('speed') || 0
       speak(text, { pitch: pitch, speed: speed });
     </script>
 </body>
