@@ -501,8 +501,8 @@
 		{
 			"attribute"	"Construction rate increased"
 			"icon"		"achievements/tf_sniper_kill_failed_spy"
-			"increment"	"-0.2"			// 15% reduction
-			"cap"		"0.4"			// 75% reduction max (.41 because of float rounding when comparing)
+			"increment"	"0.2"			// 15% reduction
+			"cap"		"1.5"			// 75% reduction max (.41 because of float rounding when comparing)
 			"cost"		"100"
 		}
 		"21"
