@@ -3,6 +3,7 @@ BODY
 	background: #fff url( 'img/bg.jpg' );
 	-webkit-background-size: 100% 100%;
 	overflow: hidden;
+	font-family: "Verdana";
 }
 
 #container
