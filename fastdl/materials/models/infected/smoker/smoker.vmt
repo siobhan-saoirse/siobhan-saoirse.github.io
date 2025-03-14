@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\infected\smoker/Smoker"
+$bumpmap "models\infected\smoker/Smoker_normal"
+
+
+
+
+}

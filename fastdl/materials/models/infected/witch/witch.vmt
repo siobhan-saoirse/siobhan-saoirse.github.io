@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$baseTexture "models\infected\witch/witch"
+$bumpmap "models\infected\witch/witch_normal"
+}

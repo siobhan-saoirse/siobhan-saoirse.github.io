@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\infected\boomer/Boomer"
+$bumpmap "models\infected\boomer/Boomer_normal"
+$allowdiffusemodulation 0
+}
