@@ -84,7 +84,7 @@
 			]
 			function playNext() {
 				audio = new Audio(music[Math.floor(Math.random()*music.length)]);
-				audio.volume = 0.1;
+				audio.volume = 0.5;
 				audio.play();
 				audio.onended = function() {
 					playNext();
