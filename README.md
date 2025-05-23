@@ -1,9 +1,6 @@
 # Welcome
 
-### WTF is this?!
+## What is this?
 
-This is my website that has unfinished shit. It's mostly used for FastDL on my TF2 server.
-
-You can't contact me on your beloved grooming platform with lazy moderation. (Discord) 
-
-Try harder.
+This is my personal website. It's mostly used for FastDL files, loading screens, etcetera.
+Formerly used as the failed boiling water reactor (BonziWORLD Revived) instance.
