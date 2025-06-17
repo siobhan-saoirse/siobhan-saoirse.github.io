@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\csgo\v_models\arms\t_arms_pirate_watch"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedoboost" "400"
+	"$phongfresnelranges" "[.1 .4 1]"
+
+	"$phongexponenttexture" "models\weapons\csgo\v_models\arms\t_arms_pirate_watch_exp"
+
+	"$basemapalphaphongmask" "1"
+	
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmapFresnelMinMaxExp" "[0 5 .4]"
+	"$envmaptint" 		"[.5 .5 .5]"
+
+	"$phongalbedotint" "1"
+
+
+}

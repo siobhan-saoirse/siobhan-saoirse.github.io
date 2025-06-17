@@ -1,0 +1,20 @@
+UnlitTwoTexture
+{
+	$basetexture models/weapons/shared/scope/scope_dot_white
+	$texture2 _rt_poweroftwofb
+	
+	$crosshairmode 1
+	$crosshaircolortint "[ .5 0 0 ]"
+	$crosshaircoloradapt 1.2
+	
+	$translucent 1
+	
+	Proxies
+	{
+		CrossHairColor
+		{
+			resultVar	"$crosshaircolortint"
+		}
+	}
+	
+}

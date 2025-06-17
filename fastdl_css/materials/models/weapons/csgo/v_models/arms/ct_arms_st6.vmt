@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/csgo/v_models/arms/ct_arms_st6"
+	"$bumpMap" "models/weapons/csgo/v_models/arms/ct_arms_normal"
+
+	"$phong" "1"
+	"$phongBoost" "1"
+	"$phongExponent" "12"
+	"$phongTint" "[1 1 1]"
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$phongdisablehalflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "15"
+	"$rimlightboost" ".2"
+	
+
+}

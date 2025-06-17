@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\weapons\csgo\v_models\eq_molotov/v_eq_molotov_bottle"
+	"$translucent" "1"
+
+	$model  1
+
+}

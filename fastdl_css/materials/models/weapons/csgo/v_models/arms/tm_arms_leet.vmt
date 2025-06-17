@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+//                "$phongdisablehalflambert" "1"
+	"$baseTexture" "models/weapons/csgo/v_models/arms/tm_arms_leet"
+	"$bumpMap" "models/weapons/csgo/v_models/arms/tm_arms_leet_normal"
+	"$phong" "1"
+	"$phongBoost" "0.5"
+	"$phongexponenttexture"    "models/weapons/csgo/v_models/arms/tm_arms_leet_exp"
+	"$phongTint" "[1 1 1]"
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "9"
+	"$rimlightboost" ".2"
+	"$rimmask" 1
+}

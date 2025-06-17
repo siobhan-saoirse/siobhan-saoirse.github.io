@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_models\w_eq_grenades\decoy_grenade"
+
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongboost" ".6"
+	"$phongalbedoboost" "10"
+
+	"$phongalbedotint" "1"
+
+	"$phongexponenttexture" "models\weapons\w_models\w_eq_grenades\m84_flashbang_grenade_exponent"
+
+	"$phongdisablehalflambert" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.01 .01 .01]"
+
+	"$GRADIENTTEXTURE" "models\weapons\w_models\w_eq_grenades\m84_flashbang_gradiant"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\csgo\v_models\eq_grenades/m67_grenade_01"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[ .8 .8 1]"
+	"$phongexponent" 6
+//	"$phongexponenttexture" "models\weapons\csgo\v_models\pist_hkp2000\m67_grenade_01_exponent"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongdisablehalflambert" "1"
+}

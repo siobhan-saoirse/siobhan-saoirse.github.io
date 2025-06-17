@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/csgo/v_models/arms/t_arms_professional"
+	"$bumpMap" "models/weapons/csgo/v_models/arms/t_arms_professional_normal"
+	"$phongexponenttexture"    "models/weapons/csgo/v_models/arms/tm_arms_professional_exp" // still matches up! no need to dupe work
+	"$phong" "1"
+	"$phongBoost" "0.5"
+	"$phongTint" "[1 1 1]"
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "9"
+	"$rimlightboost" ".2"
+	"$rimmask" 1
+}
