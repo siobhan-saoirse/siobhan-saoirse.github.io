@@ -1,6 +1,6 @@
 UnlitTwoTexture
 {
-	$basetexture models/weapons/shared/scope/scope_dot_white
+	$basetexture models/weapons/csgo/shared/scope/scope_dot_white
 	$texture2 _rt_poweroftwofb
 	
 	$crosshairmode 1

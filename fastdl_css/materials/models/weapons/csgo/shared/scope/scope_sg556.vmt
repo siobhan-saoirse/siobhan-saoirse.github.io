@@ -1,10 +1,10 @@
 "VertexLitGeneric"
 {
     "$phongdisablehalflambert" "1"
-	"$baseTexture" "models/weapons/shared/scope/scope"
+	"$baseTexture" "models/weapons/csgo/shared/scope/scope"
 //	"$basemapalphaphongmask" "1"
 
-	"$bumpMap" "models/weapons/shared/scope/scope_normal"
+	"$bumpMap" "models/weapons/csgo/shared/scope/scope_normal"
 	"$phong" "1"
 	"$phongBoost" "3"
 	"$phongExponent" "700"
