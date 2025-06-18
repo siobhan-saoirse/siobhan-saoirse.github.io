@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	"$basetexture"           models/weapons/shared/shells/candycorn
+	"$basealphaenvmapmask"   1
+	"$phong"                 1
+	"$phongexponent"         40
+	"$basemapalphaphongmask" 1
+	"$phongfresnelranges"    "[0.05 0.5 1]"
+	"$phongboost"            5
+}

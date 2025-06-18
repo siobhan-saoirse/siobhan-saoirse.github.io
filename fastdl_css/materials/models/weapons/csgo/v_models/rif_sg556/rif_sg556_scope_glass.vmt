@@ -5,12 +5,4 @@ unlitgeneric
 	$envmaptint "[.2 .25 .2]"
 	$envmapmask models\weapons\csgo\shared\scope\scope_lens_reflect_mask
 	$ignorez 1
-	Proxies
-	{
-		IronSightAmount
-		{
-			resultVar	"$alpha"
-			invert		1
-		}
-	}
 }

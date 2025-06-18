@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models\weapons\shared\paracord\descender"
+	"$bumpmap"                   "dev/flat_normal"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "4"
+	"$phongexponent"             "80"
+	"$phongdisablehalflambert"   "1"
+	"$envmap"                    "env_cubemap"
+	"$envmaptint"                "[0.02 0.02 0.02]"
+}

@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	$basetexture "models\weapons\shared\paracord\paracord01"
+	"$bumpmap"                   "models\weapons\shared\paracord\paracord01_normal"
+	"$phong"                     "1"
+	"$phongboost"                "0.33"
+	"$phongexponent"             "20"
+}

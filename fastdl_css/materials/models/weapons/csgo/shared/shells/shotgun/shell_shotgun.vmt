@@ -1,4 +1,4 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\weapons\csgo\shared\shells\shotgun\shell_shotgun"
+	"$baseTexture" "models\weapons\shared\shells\shotgun\shell_shotgun"
 }

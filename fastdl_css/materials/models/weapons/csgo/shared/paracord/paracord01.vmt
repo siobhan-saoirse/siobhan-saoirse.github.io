@@ -1,0 +1,25 @@
+vertexlitgeneric
+{
+	$basetexture "models\weapons\shared\paracord\paracord01"
+	"$bumpmap"                   "models\weapons\shared\paracord\paracord01_normal"
+	"$phong"                     "1"
+	"$phongboost"                "0.33"
+	"$phongexponent"             "20"
+	
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $basetexturetransform
+			texturescrollrate 10
+			texturescrollangle -90
+		}
+		TextureScroll
+		{
+			texturescrollvar $bumptransform
+			texturescrollrate 10
+			texturescrollangle -90
+		}
+	}
+	
+}
