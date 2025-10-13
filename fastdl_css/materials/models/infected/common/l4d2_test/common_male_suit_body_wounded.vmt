@@ -1,0 +1,21 @@
+patch
+{
+include "materials/models/infected/common/l4d2_test/common_male_suit_body.vmt"
+insert
+{
+$WOUNDED 1
+$ELLIPSOIDCENTER "[-5 5 1.5]"
+$ELLIPSOIDLOOKAT "[0 0 1]"
+$ELLIPSOIDUP "[0 1 0]"
+$ELLIPSOIDSCALE "[6 6 6]"
+$ELLIPSOIDCENTER2 "[-5 5 1.5]"
+$ELLIPSOIDLOOKAT2 "[0 0 1]"
+$ELLIPSOIDUP2 "[0 1 0]"
+$ELLIPSOIDSCALE2 "[6 6 6]"
+$WOUNDCUTOUTTEXTURE "models/infected/common/body_wounds/ci_wound_planar"
+$CUTOUTDECALFALLOFF 2
+$CUTOUTDECALMAPPINGSCALE "2.5"
+
+$ELLIPSOID2CULLTYPE 1
+}
+}

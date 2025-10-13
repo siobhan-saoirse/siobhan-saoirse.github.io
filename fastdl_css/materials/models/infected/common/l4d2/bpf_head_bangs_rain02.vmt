@@ -1,0 +1,13 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_head_include.vmt"
+insert
+{
+$BLOODMASKRANGE "[0.2 1.1]"
+$phongboost 2
+$basetexture "models/infected/common/l4d2/cif_head_bangs_rain"
+$skintintgradient 1
+$colortintgradient 9
+$sheetindex 3
+}
+}

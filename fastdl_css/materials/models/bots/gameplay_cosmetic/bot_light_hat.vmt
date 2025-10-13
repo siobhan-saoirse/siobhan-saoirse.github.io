@@ -1,0 +1,68 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\bots\gameplay_cosmetic/bot_light_hat"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"
+	"$detailscale" "5"
+	"$detailblendfactor" 0.0
+	"$detailblendmode" 6
+
+	$selfillum 1
+	"$selfillumtint" "[1 1 1]"
+
+	"$blendtintbybasealpha" "0" 
+	"$blendtintcoloroverbase" "1"  
+
+	"$colortint_base" "{255 237 42}"
+	"$color2" "{255 237 42}"
+	"$colortint_tmp" "255  237 42]"
+									// Boost for ambient cube component of rim lighting
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	$yellow 0
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+  		"ItemTintColor"
+  		{
+   			"resultVar" "$colortint_tmp"
+  		}
+  		"SelectFirstIfNonZero"
+  		{
+   			"srcVar1" "$colortint_tmp"
+   			"srcVar2" "$colortint_base"
+   			"resultVar" "$color2"
+  		}
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $selfillumtint // The shader parameter to be manipulated
+			sineperiod	0.25
+			sinemin		-5
+			sinemax		20
+
+		}
+
+	}
+}
+

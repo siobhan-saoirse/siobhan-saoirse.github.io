@@ -1,0 +1,11 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_body_include.vmt"
+insert
+{
+$basetexture "models/infected/common/l4d2/cim_tankTop_jeans"
+$skintintgradient 0
+$colortintgradient 11
+$sheetindex 0
+}
+}

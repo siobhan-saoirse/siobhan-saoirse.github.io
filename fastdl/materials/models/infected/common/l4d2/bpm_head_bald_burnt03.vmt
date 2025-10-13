@@ -1,0 +1,13 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_head_include.vmt"
+insert
+{
+$burning 1
+$burnstrength "0.43"
+$basetexture "models/infected/common/l4d2/cim_head_bald"
+$skintintgradient 2
+$colortintgradient 10
+$sheetindex 1
+}
+}

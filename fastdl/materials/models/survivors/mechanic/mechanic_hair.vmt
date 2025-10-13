@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\survivors\mechanic\mechanic_hair_color"
+$halflambert 0
+$translucent 1
+}

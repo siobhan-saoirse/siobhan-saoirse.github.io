@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$basetexture "models/infected/common/l4d2_test/common_sidewound"
+$bumpmap "effects/flat_normal"
+$halflambert 1
+$phong 1
+$phongtint "[.4 .8 1]"
+$phongfresnelranges "[1 1 1]"
+$phongexponent 10
+$phongboost "0.25"
+$allowdiffusemodulation 0
+$ambientboost "0.2"
+}

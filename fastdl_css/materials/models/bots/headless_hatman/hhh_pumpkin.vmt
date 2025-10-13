@@ -1,0 +1,51 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/pumkin_hat"
+	"$bumpmap" "models/player/items/all_class/pumkin_hat_normal" 
+	"$detail" "models/player/items/all_class/pumkin_hat_glow" 
+	"$detailscale" "1"
+	"$detailblendfactor" 1
+	"$detailblendmode" 5
+   
+	">=DX90"
+	{
+		"$selfillum" "1"
+	}
+	
+	"$selfillumtint" "[2 .2 1]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[.2 0 12]" // 0.0 1.0 1.0 is the default
+	"$invulnlevel" "0"
+	"$invulnexponent" "1"
+	"$invulnfmax" "1"
+	"$invulnscale" "0"
+	"$invulnphong" "1"
+
+	"$half" "0.5"
+
+	"$invulnphongfading" "0"
+	"$invulnphongfull" "1"
+	"$invulnphongoutput" "1" 
+
+	"$invulnexponentfading" "11"
+	"$invulnexponentfull" "53"
+	"$invulnexponentoutput" "1"
+	
+	"$invulnfmaxfading" ".5"
+	"$invulnfmaxfull" "1"
+	"$invulnfmaxoutput" "1"
+
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "9"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" ".014"
+	"$rimlightboost" "2"
+	// Cloaking
+	"$cloakPassEnabled" "1"
+}

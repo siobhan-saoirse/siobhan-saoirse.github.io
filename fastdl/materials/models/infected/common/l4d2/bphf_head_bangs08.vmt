@@ -1,0 +1,11 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_head_include.vmt"
+insert
+{
+$basetexture "models/infected/common/l4d2/bphf_head_bangs"
+$skintintgradient 7
+$colortintgradient 14
+$sheetindex 0
+}
+}

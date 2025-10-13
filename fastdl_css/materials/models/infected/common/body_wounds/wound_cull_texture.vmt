@@ -1,0 +1,4 @@
+LightmappedGeneric
+{
+$baseTexture "models\infected\common\body_wounds/wound_cull_texture"
+}

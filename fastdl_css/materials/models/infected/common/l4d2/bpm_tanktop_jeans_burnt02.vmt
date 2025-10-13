@@ -1,0 +1,13 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_body_include.vmt"
+insert
+{
+$burning 1
+$burnstrength "0.43"
+$basetexture "models/infected/common/l4d2/cim_tankTop_jeans"
+$skintintgradient 1
+$colortintgradient 9
+$sheetindex 3
+}
+}

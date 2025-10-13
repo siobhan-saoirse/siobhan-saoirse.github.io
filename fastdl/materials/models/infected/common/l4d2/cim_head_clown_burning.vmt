@@ -1,0 +1,9 @@
+patch
+{
+include "materials/models/infected/common/l4d2/ci_head_include_clown.vmt"
+insert
+{
+$basetexture "models/infected/common/l4d2/cim_head_clown"
+$BURNING 1
+}
+}

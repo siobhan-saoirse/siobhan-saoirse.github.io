@@ -1,0 +1,14 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_body_include.vmt"
+insert
+{
+$DETAIL "models/infected/common/l4d2/detail/ci_detail_algae"
+$DETAILSCALE 6
+$phongboost 2
+$basetexture "models/infected/common/l4d2/cim_deepsouth_swamp"
+$skintintgradient 3
+$colortintgradient 15
+$sheetindex 2
+}
+}

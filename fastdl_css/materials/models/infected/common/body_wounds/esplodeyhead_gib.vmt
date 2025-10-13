@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$basetexture "Models\infected\common\body_wounds\splodeyHead_col"
+$bumpmap "Models\infected\common\body_wounds\splodeyHead_normal"
+
+
+
+
+$phong 1
+$phongexponent 90
+$phongboost 15
+$phongfresnelranges "[.2 .5 1]"
+$diffuseexp "1.75"
+$allowdiffusemodulation 0
+}

@@ -1,0 +1,14 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_body_include.vmt"
+insert
+{
+$detail "models/infected/common/l4d2/detail/ci_detail_mud"
+$GRADIENTTEXTURE "models/infected/common/l4d2/bp_gradient_palette_rain"
+$phongboost 2
+$basetexture "models/infected/common/l4d2/cim_deepsouth_rain"
+$skintintgradient 3
+$colortintgradient 15
+$sheetindex 2
+}
+}

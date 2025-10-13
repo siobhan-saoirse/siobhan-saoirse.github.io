@@ -1,0 +1,17 @@
+patch
+{
+include "materials/models/infected/common/l4d2/bp_body_include.vmt"
+insert
+{
+$basetexture "models/infected/common/l4d2/cim_fallen_survivor"
+$skintintgradient 2
+$colortintgradient 10
+$sheetindex 1
+$GRADIENTTEXTURE "models/infected/common/l4d2/ci_gradient_palette_fallen_survivor"
+$phongtint "[1 1 1]"
+$phongfresnelranges "[1 1 1]"
+$phongboost 1
+$DEFAULTPHONGEXPONENT 15
+$BLOODSPECBOOST "0.2"
+}
+}

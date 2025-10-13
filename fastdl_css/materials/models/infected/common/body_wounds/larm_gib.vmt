@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "Models\infected\common\body_wounds\LArm_gib_col"
+$bumpmap "Models\infected\common\body_wounds\LArm_gib_normal"
+$phong 1
+$phongexponent 70
+$phongboost 5
+$phongfresnelranges "[0.2 0.5 1.0]"
+$diffuseexp "1.0"
+$allowdiffusemodulation 0
+}
