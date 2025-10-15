@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "halflife/out_grnd1"
+	"$basetexture2" "halflife/out_grnd2"
+	"%tooltexture" "halflife/out_grnd2"
+	"%keywords" "wasteland"
+}
