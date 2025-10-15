@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$basetexture "kern3l/506"
+$halflambert 1
+$nodecal 1
+}

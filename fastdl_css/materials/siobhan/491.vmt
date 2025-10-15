@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$basetexture "siobhan/491"
+$nodecal 1
+$halflambert 1
+}

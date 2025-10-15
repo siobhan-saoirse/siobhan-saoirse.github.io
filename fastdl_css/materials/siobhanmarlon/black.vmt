@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$basetexture "halflife/black"
+$nodecal 1
+$halflambert 1
+}
