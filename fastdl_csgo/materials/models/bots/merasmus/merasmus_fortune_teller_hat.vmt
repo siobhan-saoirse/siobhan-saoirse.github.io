@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bots/merasmus/merasmus_fortune_teller_hat"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	"$selfillum" 1
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1.25 .5 2]"
+	
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "15"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" "1.25"
+			"sinemin" ".25"
+			"sinemax" "0.9"
+			"resultVar" "$selfillumtint"
+		}
+	}
+}
+
