@@ -15,7 +15,7 @@
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	// Cloaking
-	"$cloakPassEnabled" "1"
+	
 	"$cloakColorTint" "[0.4 0.5 1]"
 	"Proxies"
 	{

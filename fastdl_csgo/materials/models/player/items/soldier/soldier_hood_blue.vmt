@@ -1,0 +1,55 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/soldier/soldier_hood_blue"
+	"$bumpmap" "models/player/items/soldier/soldier_hood_normal"
+	"$phongexponenttexture" "models/player/items/soldier/soldier_hood_exp"
+		
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+	"$rimmask" 1
+
+	
+	"$one" "1"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "1"
+	"$lightwarptexture" "models/player/items/soldier/soldier_hood_warp_blue"	
+	"$phongfresnelranges"	"[.8 1 1]"
+	"$phongwarptexture" "models/player/items/soldier/soldier_hood_warp_blue"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

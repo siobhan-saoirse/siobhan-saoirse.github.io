@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+//"Modulate"
+{
+	"$basetexture" "models/player/items/soldier/honchos_headgear_lens"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+	"$envmaptint" " [1 1 1]"
+	"$envmapmask" "models/player/sniper/sniper_lens_specular"
+	"$translucent" 1
+//	"$additive" 1
+	"$model" "1"
+
+	// Cloaking
+	
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+	}
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/taunts/yeti_standee/yeti_standee"
+	"$surfaceprop"	"wood"
+}

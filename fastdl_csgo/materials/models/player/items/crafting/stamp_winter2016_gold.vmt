@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player\items\crafting/stamp_winter2016_gold"
+	"$basemapalphaphongmask" 1
+	
+	
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[.4 .5 .08]"
+	
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+
+//                "$blendtintbybasealpha" "0" 
+//                "$blendtintcoloroverbase" "1"  
+
+//                "$colortint_base" "{208 195 129}"
+//                "$color2" "{208 195 129}"
+//                "$colortint_tmp" "[0 0 0]"
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	".1"
+	"$phongexponent"	"20"
+	//"$phongexponenttexture"	"models/player\items\crafting/stamp_winter2016_gold_exp"
+	"$phongfresnelranges"	"[.5 1 2]"
+	//"$phongtint"  "2 2 1"
+	"$halflambert" "0"
+//	"$phongtint" "[.4 .5 .08]"
+	
+	"$selfillum" 1	
+	"$selfillumtint" "[5 4 .2]"
+  "$selfIllumFresnel" "1"
+  "$selfIllumFresnelMinMaxExp" "[0 1 7]" // 0.0 1.0 1.0 is the default
+
+	
+	                                "ItemTintColor"
+                                {
+                                                "resultVar" "$colortint_tmp"
+                                }
+                                "SelectFirstIfNonZero"
+                                {
+                                                "srcVar1"             "$colortint_tmp"
+                                                "srcVar2"             "$colortint_base"
+                                                "resultVar" "$color2"
+                                }
+
+}

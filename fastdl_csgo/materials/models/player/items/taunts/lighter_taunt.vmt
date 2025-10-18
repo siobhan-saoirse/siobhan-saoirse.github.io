@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/taunts/lighter_taunt"
+	"$surfaceprop"	"metal_barrel"
+	"$envmap"	"env_cubemap"
+	"$baseAlphaEnvMapMask" "1"
+	"$model"	1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"10"
+	"$phongfresnelranges"	"[.1 .5 1]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	".1"
+}

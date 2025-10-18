@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"	 "models/player/items/crafting/crate_strange_weapons"
+	"$baseMapAlphaPhongMask" "1"
+
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "0"
+
+}

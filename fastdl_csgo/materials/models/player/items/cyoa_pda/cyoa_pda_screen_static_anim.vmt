@@ -1,0 +1,16 @@
+
+"VertexLitGeneric"
+{
+"$basetexture"	"models/player/items/cyoa_pda/cyoa_pda_screen_static_anim"
+//"$selfillum"	1
+
+	"Proxies"
+		{
+			"AnimatedTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 15
+			}
+		}
+}

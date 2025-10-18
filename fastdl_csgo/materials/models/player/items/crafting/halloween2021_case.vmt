@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/crafting/halloween2021_case"
+//	"$basemapalphaphongmask" 1
+	"$bumpmap" "models/player/items/crafting/halloween2021_case_normal"
+	"$normalmapalphaenvmapmask" 1	
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[50 .3 .06]"
+	
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"20"
+	"$phongfresnelranges"	"[.5 1 2]"
+	"$phongtint"  "[2 .8 .1]"
+	"$halflambert" "0"
+	
+	"$selfillum" 1	
+	"$selfillumtint" "[2 1.5 .7]"
+  "$selfIllumFresnel" "1"
+  "$selfIllumFresnelMinMaxExp" "[0 10 20]" // 0.0 1.0 1.0 is the default
+
+
+}

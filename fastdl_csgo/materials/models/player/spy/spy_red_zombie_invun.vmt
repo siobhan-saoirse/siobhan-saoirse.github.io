@@ -47,7 +47,7 @@
 	"$rimlightexponent" "11"
 	"$rimlightboost" "5"	
 	
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support

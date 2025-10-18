@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\player\items\taunts\bumpercar\bumper_car01"
+	"$surfaceprop"	"default"
+}

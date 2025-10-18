@@ -14,7 +14,7 @@
 	"$rimlightexponent" "5"										// Exponent for phong component of 	rim lighting	
 	"$rimlightboost" ".3"										// Boost for ambient cube 	component of rim lighting
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support

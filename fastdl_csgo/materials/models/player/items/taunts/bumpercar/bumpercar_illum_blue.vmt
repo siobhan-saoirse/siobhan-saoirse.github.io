@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\items\taunts\bumpercar\bumpercar_base_blue.vtf"
+
+	"$selfillum" "1"
+
+}

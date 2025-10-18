@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/crafting/weapons_case_screamfortress2021"
+	"$basemapalphaphongmask" "1"
+
+	"$bumpmap" "models/effects/flat_normal" 
+
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost" ".1"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+	"$phongfresnelranges"	"[1 .5 .25]"
+	
+		// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"
+}

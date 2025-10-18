@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/crafting/coin_summer2015_bronze"
+	"$bumpmap" "models/player/items/crafting/coin_summer2015_bronze_normal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.25 0.25 0.25]"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "0.5"
+	"$rimlightexponent" "2"	
+	"$rimlightboost" "0.25"
+
+}

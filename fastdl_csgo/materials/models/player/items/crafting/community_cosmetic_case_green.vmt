@@ -1,0 +1,75 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/crafting/community_cosmetic_case"
+	"$bumpmap" "models/player/items/crafting/community_cosmetic_case_normal"
+
+//	"$basemapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/items/crafting/cosmetic_case_spring_exp"
+	"$phongboost" "4"
+	"$phongfresnelranges"	"[.5 1 4]"
+
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+
+	"$envmap" "cubemaps/cubemap_sheen002"
+	"$envmaptint" "[.5 .4 .6]"	//changes case spec color [ R G B ]
+
+	"$rimmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"[ .45 .73 .44 ]"	//changes case color [ R G B ]
+	"$color2"		"[ .45 .73 .44 ]"	//changes case color [ R G B ]
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

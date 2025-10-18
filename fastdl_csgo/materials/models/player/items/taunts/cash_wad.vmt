@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/taunts/cash_wad"
+	"$surfaceprop"	"default"
+}

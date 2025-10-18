@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/items/taunts/whoopass_can"
+	"$envmap" "env_cubemap"
+	"$nocull" "1"
+}

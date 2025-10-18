@@ -1,0 +1,61 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/player/items/spy/fwk_spy_specs"
+	"$translucent" "1"
+	"$additive" "1"
+	"$nocull" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.6 .6 .7]"
+	"$surfaceprop" "glass"
+
+	
+	"$one" "1"
+
+	// Cloaking
+	
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "1"  
+
+	"$colortint_base" "{208 243 233}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"360?$color2" "[ 0.7 0.7 0.7 ]"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

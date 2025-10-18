@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/taunts/whup_scoop"
+	"$surfaceprop"	"default"
+	"$envmap"	"env_cubemap"
+}

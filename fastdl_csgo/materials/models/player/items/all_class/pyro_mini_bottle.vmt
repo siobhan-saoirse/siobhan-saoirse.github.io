@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/all_class/pyro_mini_bottle"
+	"$bumpmap" "models/player/items/all_class/pyro_mini_bottle_normal"
+	"$envmap" "models/cubemaps/pyroland_cube_hdr"
+	"$envmaptint" "[.1 .1 .1]"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	//"$basemapalphaphongmask" 1
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"20"
+	"$phongfresnelranges"	"[1 2 2.5]"
+
+	"$ambientocclusion" "1"
+}

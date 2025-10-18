@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\items\taunts\bumpercar\bumpercar_blue.vtf"
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+	"$envmapsaturation"     ".4"
+	"$EnvmapTint" "[0.7 0.7 0.7]"
+
+
+	
+
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+}

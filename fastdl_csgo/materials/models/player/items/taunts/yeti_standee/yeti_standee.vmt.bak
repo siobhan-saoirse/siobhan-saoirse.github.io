@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/yeti_standee/yeti_standee"
+	"$surfaceprop"	"wood"
+}

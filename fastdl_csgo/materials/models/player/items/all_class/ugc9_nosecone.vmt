@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "test/color_black"
+	"$additive" 1
+}

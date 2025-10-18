@@ -26,7 +26,7 @@
 		"$iris"         "models/player/shared/dxlevel80/iris_blue_l"
 	}
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support

@@ -2,11 +2,8 @@
 {
 	"$baseTexture" "models/player/shared/gold_player"
 	"$bumpmap" "models/effects/flat_normal" 
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
-	"$yellow" "0"
+	
+	
 
 	"$phong" "1"
 	"$phongexponent" "10"
@@ -32,7 +29,7 @@
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	// Cloaking
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"invis"

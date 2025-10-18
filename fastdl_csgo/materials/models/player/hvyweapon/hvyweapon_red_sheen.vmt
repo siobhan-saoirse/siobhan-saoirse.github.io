@@ -2,13 +2,10 @@
 {
 	"$basetexture" "models/player/hvyweapon/hvyweapon_red"
 	"$bumpmap" "models/player/hvyweapon/hvyweapon_normal"
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	
 
 
-	"$yellow" "0"
+	
 	"$one" "1"
 
 	"$phong" "1"
@@ -33,7 +30,7 @@
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support

@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/crafting/cosmetic_case_gun_mettle"
+	"$bumpmap" "models/effects/flat_normal"
+
+	"$basemapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/items/crafting/cosmetic_case_gun_mettle_exp"
+	"$phongboost" "4"
+	"$phongfresnelranges"	"[.5 1 4]"
+
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+
+	"$envmap" "cubemaps/cubemap_sheen002"
+	"$envmaptint" "[1.3 .9 2]"
+
+	"$rimmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+}

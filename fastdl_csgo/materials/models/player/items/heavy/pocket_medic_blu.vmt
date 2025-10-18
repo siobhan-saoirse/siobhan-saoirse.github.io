@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/items/heavy/pocket_medic_blu"
+	"$translucent" 0
+}

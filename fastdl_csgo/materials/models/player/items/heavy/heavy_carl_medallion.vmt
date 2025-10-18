@@ -1,0 +1,82 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/hvyweapon/hvyweapon_red"
+
+	"$bumpmap" "models/player/hvyweapon/hvyweapon_normal"	
+	
+	
+
+	"$basephongexponent" "25"
+	"$basephongboost" ".1"
+
+	">=DX90"
+	{
+		"$envmap" "effects/saxxy/saxxy_gold"
+		"$envmaptint" "[.2 .2 .2]"
+	}
+
+	"$commadd_phongexponent" "15"
+	"$commadd_phongboost" 	".1"
+	"$commweapon"		"0"
+	
+//	
+	"$normalmapalphaenvmapmask" "1"
+	"$basemapalphaphongmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".5"
+	"$phongfresnelranges"	"[.2 1 4]"
+		
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$glowcolor" "1"
+	"$tempvar" "0"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "5"
+
+	// Cloaking
+	
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

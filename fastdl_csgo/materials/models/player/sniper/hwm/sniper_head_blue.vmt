@@ -5,10 +5,7 @@
 	"$compress"    "models/player/sniper/hwm/sniper_head_compress"
 	"$stretch"     "models/player/sniper/hwm/sniper_head_stretch"
 
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "1"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	
 
 	"$phong" "1"
 	"$phongexponenttexture" "models/player/sniper/hwm/sniper_head_exponent"
@@ -24,35 +21,8 @@
 	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
 
 	"$cloakColorTint" "[0.4 0.5 1]"
-	"$yellow" "0"
+	
 
-	"$cloakPassEnabled" "1"
-	"Proxies"
-	{
-		"spy_invis" //wmodel and team color cloak support
-		{
-		}
-		"invis" //vmodel cloak support
-		{
-		}
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
-			"animatedtextureframerate" 30
-		}
-		"BurnLevel"
-		{
-			"resultVar" "$detailblendfactor"
-		}
-		"YellowLevel"
-		{
-			"resultVar" "$yellow"
-		}
-		"Equals"
-		{
-			"srcVar1" "$yellow"
-			"resultVar" "$color2"
-		}
-	}
+	
+	
 }

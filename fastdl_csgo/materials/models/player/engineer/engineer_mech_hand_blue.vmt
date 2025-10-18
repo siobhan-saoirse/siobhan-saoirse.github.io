@@ -2,13 +2,10 @@
 {
 	"$basetexture" "models/player/engineer/engineer_mech_hand_blue"
 	"$bumpmap"     "models/player/engineer/engineer_mech_hand_phongmask"
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "1"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	
 
 
-	"$yellow" "0"
+	
 	"$one" "1"
 
 	"$phong" "1"
@@ -23,7 +20,7 @@
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	// Cloaking
-	"$cloakPassEnabled" "1"
+	
 	"$sheenPassEnabled" "1"
 
 	"$sheenmap" 		"cubemaps/cubemap_sheen001"

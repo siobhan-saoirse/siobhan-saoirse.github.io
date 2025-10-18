@@ -1,0 +1,147 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/yeti_hardhat/yeti_hardhat"
+	
+	"$phong" "1"
+	"$phongexponent" "255"
+	"$phongboost" "5"	
+	
+	"$phongexponentfactor"  "75"
+	"$phongalbedotint" "1"
+	
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
+			
+	"$phongfresnelranges"	"[.3 .5 3]"
+	"$halflambert" "1"
+	"$glowcolor" "1"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.022 .022 .022]"
+
+	"$tempvar" "0"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "2"				
+	"$rimlightboost" "2.5"
+	"$rimmask" "1"
+	
+
+	// Cloaking
+	
+	"$sheenPassEnabled" "1"
+
+	"$sheenmap" 		"cubemaps/cubemap_sheen001"
+	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+		"WeaponSkin"
+		{
+		}
+	}
+}
+
+//"VertexlitGeneric"
+//{
+//	"$baseTexture" "models/player/items/all_class/yeti_hardhat/yeti_hardhat"
+//
+//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "5"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
+//	"$yellow" "0"
+//
+//	// Rim lighting parameters
+//	"$rimlight" "1"												// To enable rim lighting (requires phong)
+//	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+//	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+//
+//	// Cloaking
+//	
+//
+//// 	"$blendtintbybasealpha" "1" 
+////	"$blendtintcoloroverbase" "0"  
+////	
+////	"$colortint_base" "{255 255 255}"
+////	"$colortint_tmp" "[0 0 0]" 
+//
+//	"Proxies"
+//	{
+//		"invis"
+//		{
+//		}
+//		"AnimatedTexture"
+//		{
+//			"animatedtexturevar" "$detail"
+//			"animatedtextureframenumvar" "$detailframe"
+//			"animatedtextureframerate" 30
+//		}
+//		"BurnLevel"
+//		{
+//			"resultVar" "$detailblendfactor"
+//		}
+////		"ItemTintColor"
+////		{
+////			"resultVar" "$colortint_tmp"
+////		}
+////		"SelectFirstIfNonZero"
+////		{
+////			"srcVar1"	"$colortint_tmp"
+////			"srcVar2"	"$colortint_base"
+////			"resultVar" "$color2"
+////		}
+//		"YellowLevel"
+//		{
+//			"resultVar" "$yellow"
+//		}
+//		"Multiply"
+//		{
+//			"srcVar1" "$color2"
+//			"srcVar2" "$yellow"
+//			"resultVar" "$color2"
+//		}
+//		"WeaponSkin"
+//		{
+//		}
+//	}
+//}

@@ -1,0 +1,54 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/medic/medic_mtg_blu"
+
+	
+	
+
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "2"
+	"$lightwarptexture" "models/weapons/c_items/c_ambassador_lightwarp"	
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[2 .5 2]"
+	"$basemapalphaphongmask" "1"
+
+// 	"$blendtintbybasealpha" "1" 
+// 	"$blendtintcoloroverbase" "0"  
+//
+//	"$colortint_base" "{96 66 58}"
+//	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

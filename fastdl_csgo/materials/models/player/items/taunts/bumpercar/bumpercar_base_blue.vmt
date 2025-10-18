@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\items\taunts\bumpercar\bumpercar_base_blue.vtf"
+
+	"$envmap" "env_cubemap"
+	"$basemapalphaphongmask" "1"
+	"$envmapsaturation"     ".4"
+	"$EnvmapTint" "[0.05 0.05 0.05]"
+
+	"$bumpmap" "effects/flat_normal"
+	"$phongexponenttexture" "models\player\items\taunts\bumpercar\bumpercar_base_exponent"
+	
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" ".25"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 20 20]"
+	
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "15"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1.5"										// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+
+
+}

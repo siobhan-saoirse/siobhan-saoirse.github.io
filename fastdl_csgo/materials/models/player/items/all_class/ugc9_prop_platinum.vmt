@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/UGC9_prop"
+	"$translucent" "1"
+
+	
+
+	"Proxies"
+	{ 
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 25
+		}
+	}
+	
+	"$surfaceprop" "metal"
+	"$frame"	"2"
+}

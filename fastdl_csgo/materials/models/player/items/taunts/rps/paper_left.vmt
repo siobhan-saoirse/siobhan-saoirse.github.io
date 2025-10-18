@@ -1,0 +1,4 @@
+"SpriteCard"
+{
+	$basetexture "models/player/items/taunts/rps/paper_left"
+}

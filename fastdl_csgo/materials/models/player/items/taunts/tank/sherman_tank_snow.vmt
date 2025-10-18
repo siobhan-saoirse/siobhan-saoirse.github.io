@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles/sherman_tank_snow"
+	"$bumpmap" "models/props_vehicles/sherman_tank_normal"
+}

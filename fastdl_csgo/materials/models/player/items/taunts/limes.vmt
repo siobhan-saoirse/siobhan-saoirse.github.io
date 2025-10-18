@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\items\taunts\limes"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}
