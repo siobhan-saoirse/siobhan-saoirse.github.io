@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/interloper/eyeball"
+
+	$selfillum 1
+}
