@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/player/items/engineer/guitar/strings"
-	"$surfaceprop"	"metal"
-	"$translucent"	"1"
-	"$alphatest" "1"
-	"$envmap"	"env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-}

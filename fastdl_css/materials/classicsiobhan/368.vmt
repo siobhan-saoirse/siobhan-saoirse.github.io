@@ -1,7 +1,0 @@
-VertexlitGeneric
-{
-$basetexture "sprites/white"
-$color2 "[.2 .2 .2]"
-$nodecal 1
-$halflambert 1
-}

@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models\player\items\taunts\anim_beer_bottle_cerveza"
-	"$basemapalphaphongmask" "1"
-	"$phong" "1"
-	"$phongexponent" "40"
-	"$phongboost" "2"	
-	"$phongfresnelranges"	"[.7 15 20]"
-}

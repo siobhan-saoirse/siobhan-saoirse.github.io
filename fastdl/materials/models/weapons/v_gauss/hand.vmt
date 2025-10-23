@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitTexture
-	"$basetexture" "models/weapons/v_gauss/hand"
-}

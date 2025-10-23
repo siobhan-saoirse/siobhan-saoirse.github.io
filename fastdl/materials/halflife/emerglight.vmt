@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	// Original shader: BaseTimesLightmapSelfIllum
-	"$basetexture" "halflife/emerglight"
-//	"$selfillum" 1
-	"$surfaceprop" "glass"
-}

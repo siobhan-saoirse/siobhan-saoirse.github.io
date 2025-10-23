@@ -1,7 +1,0 @@
-"Vertexlitgeneric"
-{
-	"$basetexture" "models\player\items\taunts\bumpercar\bumpercar_base_blue.vtf"
-	"$additive" "1"
-
-	"$nocull" "1"
-}

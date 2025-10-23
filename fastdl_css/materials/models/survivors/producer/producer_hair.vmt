@@ -1,7 +1,0 @@
-VertexLitGeneric
-{
-$basetexture "models\survivors\producer\producer_hair_color"
-$halflambert 1
-$translucent 1
-$nocull 1
-}

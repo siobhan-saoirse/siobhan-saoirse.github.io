@@ -1,5 +1,0 @@
-unlitgeneric
-{
-	$translucent 1
-	$basetexture models\weapons\shared\scope\scope_lens_dirt
-}

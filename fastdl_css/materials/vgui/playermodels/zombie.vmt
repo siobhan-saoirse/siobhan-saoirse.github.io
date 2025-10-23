@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent" 1
-	"$basetexture" "vgui/playermodels/zombie"
-	"$alphatest"	1
-}

@@ -1,7 +1,0 @@
-vertexlitgeneric
-{
-	$basetexture models\weapons\shared\holsterstrap\holsterstrap
-	$phong 1
-	$phongexponent 60
-	$basemapalphaphongmask 1
-}
