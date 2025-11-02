@@ -1,89 +1,121 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Source: Crossroads — Terms of Service</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Server Rules — Source: Crossroads</title>
   <style>
-    :root{--bg:#0f1724;--card:#0b1220;--accent:#60a5fa;--text:#e6eef8}
-    html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:linear-gradient(180deg,#071021 0%,#071827 100%);color:var(--text)}
-    .wrap{max-width:900px;margin:48px auto;padding:28px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
-    header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
-    h1{margin:0;font-size:1.5rem}
-    .meta{color:rgba(230,238,248,0.7);font-size:0.95rem}
-    .last-updated{color:var(--accent);font-weight:600}
-    section{margin-top:20px}
-    h2{font-size:1rem;margin:10px 0}
-    p{line-height:1.6;margin:8px 0}
-    ol{margin:10px 0 10px 20px}
-    li{margin:6px 0}
-    .small{font-size:0.9rem;color:rgba(230,238,248,0.8)}
-    footer{margin-top:28px;padding-top:14px;border-top:1px dashed rgba(255,255,255,0.02);color:rgba(230,238,248,0.6);font-size:0.9rem}
-    code{background:rgba(255,255,255,0.03);padding:0.12rem 0.3rem;border-radius:6px}
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#f59e0b; --muted:#9aa4b2; --text:#e6eef6;
+      --danger:#ef4444;
+    }
+    body{
+      margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,#071028 0%, #081226 100%); color:var(--text);
+      line-height:1.5; padding:24px;
+    }
+    .container{max-width:900px;margin:24px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02)); border-radius:12px; box-shadow:0 6px 30px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03);}
+    header{display:flex;align-items:center;gap:14px;margin-bottom:18px;}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#ef4444);display:flex;align-items:center;justify-content:center;font-weight:700;color:#071426;}
+    h1{margin:0;font-size:1.5rem;letter-spacing:-0.3px;}
+    p.lead{color:var(--muted);margin:6px 0 18px;}
+    section{margin-top:18px;padding:16px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.01)); border:1px solid rgba(255,255,255,0.02);}
+    h2{margin:0 0 10px;font-size:1.125rem;}
+    ul.rules{margin:0;padding-left:1.2rem;}
+    ul.rules li{margin:8px 0;}
+    .disclaimer{display:flex;gap:10px;align-items:flex-start;background:rgba(245,158,11,0.06);padding:12px;border-radius:8px;border:1px solid rgba(245,158,11,0.12);}
+    .disclaimer strong{color:var(--accent);}
+    .muted{color:var(--muted);font-size:0.95rem;}
+    .legal{font-size:0.92rem;color:var(--muted);margin-top:8px;}
+    .danger{color:var(--danger);font-weight:600;}
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;display:flex;justify-content:space-between;align-items:center;}
+    .summary{background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;margin-top:12px;}
+    @media (max-width:640px){.container{padding:16px}}
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <main class="container" role="main" aria-labelledby="title">
     <header>
+      <div class="logo" aria-hidden="true">X</div>
       <div>
-        <h1>Source: Crossroads — Terms of Service</h1>
-        <div class="meta">Last Updated: <span class="last-updated">30/10/2025</span></div>
+        <h1 id="title">Source: Crossroads — Server Rules & Notice</h1>
+        <p class="lead">By participating in this server you confirm you are 18+ and accept the rules below.</p>
       </div>
     </header>
 
-    <p class="small">Welcome to Source: Crossroads. By accessing or participating in our game server and related services (collectively referred to as the “Server”), you agree to comply with and be bound by the following Terms of Service (“TOS”). These terms are designed to ensure a safe, inclusive, and enjoyable environment for all participants.</p>
-
-    <section id="acceptance">
-      <h2>1. Acceptance of Terms</h2>
-      <p>By joining or using the Server, you acknowledge that you have read, understood, and agreed to these Terms of Service. If you do not agree, you must immediately disconnect and cease participation.</p>
+    <section aria-labelledby="age-disclaimer">
+      <h2 id="age-disclaimer">⚠️ Adult Content Disclaimer</h2>
+      <div class="disclaimer">
+        <div>
+          <strong>Adults 18+</strong>
+        </div>
+        <div class="muted">
+          <p>By joining, you affirm you are 18 years or older. This server contains:</p>
+          <ul class="rules" aria-label="content-warnings">
+            <li>NSFW and mature humor</li>
+            <li>Explicit or fetish-themed playermodels</li>
+            <li>Political jokes and controversial satire</li>
+            <li>Strong language and unfiltered discussions</li>
+          </ul>
+          <p class="muted"><strong class="danger">If you are under 18, disconnect immediately.</strong> Misrepresentation of age will result in a permanent ban.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="code-of-conduct">
-      <h2>2. Code of Conduct</h2>
-      <p>All players are expected to behave respectfully and responsibly while engaging with the Server. The following rules apply without exception:</p>
-      <ol>
-        <li>
-          <strong>2.1 No NSFW Content</strong>
-          <p>The distribution, discussion, or posting of any Not Safe For Work (NSFW) material—including but not limited to sexually explicit, pornographic, or obscene content—is strictly prohibited.</p>
-        </li>
-        <li>
-          <strong>2.2 No Racism or Bigotry</strong>
-          <p>Any form of discrimination, hate speech, slurs, or bigoted behavior based on race, ethnicity, nationality, gender, sexual orientation, religion, or disability will not be tolerated.</p>
-        </li>
-        <li>
-          <strong>2.3 No Harassment</strong>
-          <p>Harassment of any kind—including targeted insults, threats, stalking, doxxing, or unwanted contact—is strictly forbidden. Respect others and their personal boundaries.</p>
-        </li>
-        <li>
-          <strong>2.4 No Circumventing Rules</strong>
-          <p>Attempts to bypass, exploit, or “go around” the established rules (e.g., through loopholes, alt accounts, or technical manipulation) are violations of this TOS and will be treated as such.</p>
-        </li>
-      </ol>
+    <section aria-labelledby="conduct">
+      <h2 id="conduct">💬 Community Conduct</h2>
+      <ul class="rules" aria-label="community-conduct">
+        <li>Respect others, even in an adult environment.</li>
+        <li>Racism, hate speech, or direct harassment are not tolerated.</li>
+        <li>NSFW jokes and dark humor are allowed — keep it mutual, consensual, and not personal.</li>
+        <li>Do not dox, stalk, or leak personal information of any kind.</li>
+        <li>Listen to staff instructions; moderator decisions are final.</li>
+      </ul>
     </section>
 
-    <section id="enforcement">
-      <h2>3. Enforcement</h2>
-      <p>Violations of these terms may result in immediate disciplinary action, including but not limited to warnings, temporary suspensions, permanent bans, or removal of content. Enforcement decisions are final and made at the discretion of the administrative team.</p>
+    <section aria-labelledby="gameplay">
+      <h2 id="gameplay">🕹️ Gameplay Rules</h2>
+      <ul class="rules" aria-label="gameplay-rules">
+        <li>No cheating or exploits — includes aimbots, wallhacks, macros, or map glitches.</li>
+        <li>No DDOS attacks, flooding, or interference with the server or players.</li>
+        <li>Such acts may be criminal offenses under Swiss Penal Code (Art. 144bis – Data Damage).</li>
+        <li>No impersonating staff or using deceptive names.</li>
+        <li>No bypassing bans — alternate accounts will also be removed.</li>
+        <li>No pirated content or distribution of stolen assets.</li>
+      </ul>
     </section>
 
-    <section id="admin-rights">
-      <h2>4. Administration Rights</h2>
-      <p>The Source: Crossroads staff and administrators reserve the right to:</p>
-      <ol>
-        <li>Modify or remove content deemed inappropriate.</li>
-        <li>Enforce additional rules as necessary to maintain community safety.</li>
-        <li>Deny access to any player at any time, with or without notice.</li>
-      </ol>
+    <section aria-labelledby="security">
+      <h2 id="security">⚙️ Security and Data</h2>
+      <ul class="rules" aria-label="security-and-data">
+        <li>Activity and chat logs may be recorded for moderation and security under Swiss data protection law (FADP).</li>
+        <li>Attempts to breach server systems, steal content, or access restricted tools are prohibited.</li>
+        <li>Server materials, playermodels, or code may not be redistributed without permission.</li>
+      </ul>
     </section>
 
-    <section id="updates">
-      <h2>5. Updates to the Terms</h2>
-      <p>This TOS may be updated or modified at any time. Continued participation on the Server after updates are posted constitutes your acceptance of the revised terms.</p>
+    <section aria-labelledby="legal">
+      <h2 id="legal">⚖️ Legal and Jurisdiction Notice</h2>
+      <p class="muted">By joining this server, you agree that:</p>
+      <ul class="rules" aria-label="legal-notice">
+        <li>These rules and all related terms are governed by Swiss law.</li>
+        <li>Any disputes will be handled exclusively by the courts of Zürich, Switzerland.</li>
+        <li>The Crossroads staff reserve the right to ban or remove users at any time for breaches or disruptive conduct.</li>
+      </ul>
+      <p class="muted">Continued participation signifies your full acceptance of these terms.</p>
+    </section>
+
+    <section aria-labelledby="summary">
+      <h2 id="summary">✅ Summary</h2>
+      <div class="summary">
+        <p class="muted">This server is for mature, 18+ players who can handle dark humor, adult themes, and unfiltered discussion. Respect others, play fair, don’t cheat or harass, and don’t bring drama or illegal activity here. Have fun — but remember, everything here operates under Swiss jurisdiction.</p>
+      </div>
     </section>
 
     <footer>
-      <p>By joining or continuing to use Source: Crossroads, you agree to abide by these Terms of Service and understand that failure to do so may result in loss of access.</p>
+      <div class="muted">Last updated: <time datetime="2025-11-02">November 2, 2025</time></div>
+      <div class="muted">Jurisdiction: Zürich, Switzerland</div>
     </footer>
-  </div>
+  </main>
 </body>
 </html>
